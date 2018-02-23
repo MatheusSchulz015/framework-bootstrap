@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>O Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desabilitado</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Opçao 1</a>
+              <a class="dropdown-item" href="#">Opçao 2</a>
+              <a class="dropdown-item" href="#">Opçao 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Bootstrap o Framework front-end mais  popular da Web </h1>
+        <br>
+        <p class="lead">Ele foi desenvolvido por Jacob Thorton e Mark Otto, engenheiros do Twitter, como uma tentativa de resolver incompatibilidades dentro da própria equipe. O intuito era otimizar o desenvolvimento de sua plataforma através da adoção de uma estrutura única. <br>
+      </div>
+
+      <div class="container">
+          <p>Conhecido tambem por facilitar a criação de sites responsivos,
+             vem acompanhado de inumeras bibliotecas prontas como seus icones,botoẽs,calendários... </p>
+             <p> Para mais detalhes acesse o site <a href="https://getbootstrap.com/">do Bootstrap</a></p> 
+      </div>
+        <center><h4>Abaixo uma tabela com dados sobre  alguns frameworks front-end</h4></center>
+      <hr>
+      <div class="wrapper">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                  <th>Framework</th>
+                  <th>Criador</th>
+                  <th>Quantidade de stars no git</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-primary">
+                <td>Bootstrap</td>
+                <td>BootJacob Thorton e Mark Otto</td>
+                <td>122,098</td>
+              </tr>
+              <tr>
+                <td>Foundation</td>
+                <td>Zurb</td>
+                <td>27,005</td>
+              </tr>
+              <tr>
+                  <td>Semantic UI</td>
+                  <td>Semantic-Org</td>
+                  <td>39,005</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <h3 class="text-center">Agora um formulario utilizando as classes do bootstrap</h3>
+        <br>
+
+        <div class="container">
+            <h2 class="text-center">Por favor insira suas credenciais</h2>
+            <form action="#">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu Email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Sua Senha" name="pwd">
+              </div>
+
+              <br>
+              <center><button type="submit" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Entrar</button></center>
+            </form>
+          </div>
+          <br>
+          <hr>
+          <br>
+          <div class="container">
+            <h2 class="text-center">Alguns Botões</h2>
+
+            <br>
+            <br>
+
+            <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                  <th>Nome</th>
+                  <th>Classe css</th>
+                  <th>Botao</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Primário</td>
+                <td><pre>btn btn-primary</pre></td>
+                <td><button class="btn btn-primary">Primario</button></td>
+              </tr>
+
+              <tr>
+                  <td>Secundário</td>
+                  <td><pre>btn btn-primary</pre></td>
+                  <td><button class="btn btn-secondary">Secundário</button></td>
+                </tr>
+
+              <tr>
+                  <td>Sucesso</td>
+                  <td><pre>btn btn-success</pre></td>
+                  <td><button class="btn btn-success">Sucesso</button></td>
+                </tr> 
+
+              <tr>
+                  <td>Informação</td>
+                  <td><pre>btn btn-info</pre></td>
+                  <td><button class="btn btn-info">Informação</button></td>
+                </tr>
+
+              <tr>
+                  <td>Atenção</td>
+                  <td><pre>btn btn-warning</pre></td>
+                  <td><button class="btn btn-warning">Atençao</button></td>
+                </tr>
+
+              <tr>
+                  <td>Perigo</td>
+                  <td><pre>btn btn-danger</pre></td>
+                  <td><button class="btn btn-danger">Perigo</button></td>
+                </tr> 
+            </tbody>
+        </table>
+          </div>
+    </div>
+        
+    </main><!-- /.container -->
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Cabeçalho da Modal</h4>
+        </div>
+        <div class="modal-body">
+          <p>Corpo da Modal</p>
+          <p>É muito utilizado para emitir alertas de erro, de sucesso substituindo o "alert()" do JavaScript, tornando mais elegante o seu WebSite</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+
+    <footer class="footer">
+        <div class="container">
+          <span class="text-muted">SENAI CIMATEC- 2018</span>
+        </div>
+      </footer>
+  </body>
+</html>
